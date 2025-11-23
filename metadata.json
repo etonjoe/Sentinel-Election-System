@@ -1,0 +1,5 @@
+{
+  "name": "Pro Election Monitor",
+  "description": "A comprehensive Election Monitoring System Admin Dashboard featuring real-time data visualization, AI-powered anomaly detection using Gemini, team communication tools, and result verification workflows.",
+  "requestFramePermissions": []
+}

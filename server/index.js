@@ -22,4 +22,8 @@ app.post('/api/analyze', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
+// Add this to check if the server is running
+app.get('/', (req, res) => {
+  res.send('Sentinel Election System Backend is Active 🟢');
+});
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
